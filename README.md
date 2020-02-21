@@ -1,4 +1,4 @@
-# Unix notes
+# "The Unix Programming Environment" notes
 
 ## Commands
 
@@ -20,8 +20,8 @@
 
 ## Regexp
 
-* [a-z] one char from a to z
-* ? any single char
+* `[a-z]` one char from a to z
+* `?` any single char
 
 # Concepts
 
