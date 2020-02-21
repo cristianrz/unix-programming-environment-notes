@@ -15,6 +15,8 @@
 * `nice` does the same as `nohup` but, for expensive commands, is nicer to other users
 * `at 3am < script` runs the script at that time
 * You can write to other tty's with `date > /dev/tty0`
+* `crypt` encrypts stdin to stdout
+* `<< str` pass stdin until `str` is found on a line by itself
 
 ## Mail
 
@@ -38,3 +40,4 @@
 ## Others
 
 * `/etc/motd` contains the login message of the day
+* `PS2` contains the prompt on the second line, e.g. after `command \`
