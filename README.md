@@ -12,6 +12,8 @@
 * rmdir will only remove an empty directory
 * `grep < file` does what `cat file | grep` does
 * `nohup` does what ctrl+z would do
+* `nice` does the same as `nohup` but, for expensive commands, is nicer to other users
+* `at 3am < script` runs the script at that time
 
 ## Mail
 
