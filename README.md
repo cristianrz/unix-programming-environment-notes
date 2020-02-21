@@ -26,4 +26,3 @@
 # Concepts
 
 * "If no filenames are specified, the standard input is processed.
-
