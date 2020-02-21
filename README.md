@@ -17,6 +17,7 @@
 * You can write to other tty's with `date > /dev/tty0`
 * `crypt` encrypts stdin to stdout
 * `<< str` pass stdin until `str` is found on a line by itself
+* `> file` creates a file
 
 ## Mail
 
