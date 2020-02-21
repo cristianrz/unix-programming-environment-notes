@@ -14,6 +14,7 @@
 * `nohup` does what ctrl+z would do
 * `nice` does the same as `nohup` but, for expensive commands, is nicer to other users
 * `at 3am < script` runs the script at that time
+* You can write to other tty's with `date > /dev/tty0`
 
 ## Mail
 
@@ -25,6 +26,15 @@
 * `[a-z]` one char from a to z
 * `?` any single char
 
-# Concepts
+## Concepts
 
 * "If no filenames are specified, the standard input is processed.
+* If a directory has execute permissions but not the others, you can only open contents if you know the name.
+* Files know when they were last modified, when they were last read or executed and when the inode was updated (e.g. to change permissions)
+* Inside directories there are links to inodes (rather than inodes)
+* `ln` creates a new link for the same inodec
+* It is common for some commands that if they are called without arguments, they show their internal lists.
+
+## Others
+
+* `/etc/motd` contains the login message of the day
